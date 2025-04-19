@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Monsters>
+<Monster id = "1">
+  <Name>Леший</Name>
+  <Type>Гибрид человека и лесного духа, охраняющий древние рощи</Type>
+  <Danger>7</Danger>
+  <Habitat>Чащи Брокилона и Эдингеля</Habitat>
+  <FirstMention>1234-06-21</FirstMention>
+  <Invulnerability>Магия</Invulnerability>
+  <HeightInMetres>3</HeightInMetres>
+  <WeightInKilos>300</WeightInKilos>
+  <Immunities>
+  <Immunity>Оглушение</Immunity>
+  <Immunity>Яды</Immunity> 
+  </Immunities>
+  <Activity>Ночью</Activity>
+  <Recipe>
+    <Name>Яд</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Корень мандрагоры</Name>
+        <Quantity>3</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Пепел драконида</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Эссенция полыни</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>60</TimeInMinutes>
+    <Efficiency>Умеренная</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id = "2">
+  <Name>Полуденница</Name>
+  <Type>Призрак, терроризирующий поля во время жатвы</Type>
+  <Danger>5</Danger>
+  <Habitat>Поля Редании и амбары Туссента</Habitat>
+  <FirstMention>1198-07-15</FirstMention>
+  <Vulnerability>Световая магия</Vulnerability>
+  <WeightInKilos>0</WeightInKilos>
+  <Immunities>
+  <Immunity>Кровотечение</Immunity>
+  </Immunities>
+  <Activity>Днем</Activity>
+  <Recipe>
+    <Name>Масло</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Лепестки лунного цветка</Name>
+        <Quantity>2</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Серебряная нить</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Экстракт чеснока</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>30</TimeInMinutes>
+    <Efficiency>Высокая</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id = "3">
+  <Name>Катакан</Name>
+  <Type>Крылатый демон с хвостом скорпиона</Type>
+  <Danger>9</Danger>
+  <Habitat>Горные пещеры Туссента</Habitat>
+  <FirstMention>1150-04-12</FirstMention>
+  <HeightInMetres>2</HeightInMetres>
+  <WeightInKilos>200</WeightInKilos>
+  <Immunities>
+  <Immunity>Огонь</Immunity>
+  <Immunity>Ягоды</Immunity>
+  </Immunities>
+  <Activity>В сумерках</Activity>
+  <Recipe>
+    <Name>Масло</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Жало мантикоры</Name>
+        <Quantity>4</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Нефритовая пыль</Name>
+        <Quantity>2</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Спирт Альберихта</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>90</TimeInMinutes>
+    <Efficiency>Критическая</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id = "4">
+  <Name>Кикимора</Name>
+  <Type>Болотная нежить из гниющих останков</Type>
+  <Danger>6</Danger>
+  <Habitat>Топи Вендена</Habitat>
+  <FirstMention>1221-09-03</FirstMention>
+  <Vulnerability>Земляная магия</Vulnerability>
+  <HeightInMetres>1</HeightInMetres>
+  <WeightInKilos>15</WeightInKilos>
+  <Immunities>
+  <Immunity>Удушье</Immunity>
+  </Immunities>
+  <Activity>Ночью</Activity>
+  <Recipe>
+    <Ingredients>
+      <Ingredient>
+        <Name>Грибы-поганки</Name>
+        <Quantity>5</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Глаз василиска</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Роса папоротника</Name>
+        <Quantity>3</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>45</TimeInMinutes>
+    <Efficiency>Средняя</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id = "5">
+  <Name>Элементаль льда</Name>
+  <Type>Дух вечной зимы</Type>
+  <Danger>10</Danger>
+  <Habitat>Ледники Ковира</Habitat>
+  <FirstMention>1105-12-01</FirstMention>
+  <HeightInMetres>5</HeightInMetres>
+  <WeightInKilos>0</WeightInKilos>
+  <Immunities>
+  <Immunity>Заморозка</Immunity>
+  <Immunity>Дробление</Immunity> 
+  </Immunities>
+  <Activity>Всегда</Activity>
+  <Recipe>
+    <Name>Яд</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Сердце огненного элементаля</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Сера</Name>
+        <Quantity>3</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Расплавленное железо</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>120</TimeInMinutes>
+    <Efficiency>Переменная</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id="6">
+  <Name>Допплер</Name>
+  <Type>Изменчивый гуманоид</Type>
+  <Danger>5</Danger>
+  <Habitat>Города Северных королевств</Habitat>
+  <FirstMention>1267-03-12</FirstMention>
+  <Vulnerability>Масло против реликтов</Vulnerability>
+  <HeightInMetres>1.8</HeightInMetres>
+  <WeightInKilos>75</WeightInKilos>
+  <Immunities>
+    <Immunity>Проклятия</Immunity>
+    <Immunity>Психическое воздействие</Immunity>
+  </Immunities>
+  <Activity>Круглосуточно</Activity>
+  <Recipe>
+    <Name>Масло против допплеров</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Серебряная пыль</Name>
+        <Quantity>2</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Кровь вампира</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>45</TimeInMinutes>
+    <Efficiency>Высокая</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id="7">
+  <Name>Брукса</Name>
+  <Type>Водный паразит</Type>
+  <Danger>6</Danger>
+  <Habitat>Болота Вендена</Habitat>
+  <FirstMention>1220-08-05</FirstMention>
+  <Invulnerability>Яды</Invulnerability>
+  <Vulnerability>Огненная магия</Vulnerability>
+  <HeightInMetres>4</HeightInMetres>
+  <WeightInKilos>500</WeightInKilos>
+  <Immunities>
+    <Immunity>Утопление</Immunity>
+    <Immunity>Электричество</Immunity>
+  </Immunities>
+  <Activity>Сумерки</Activity>
+  <Recipe>
+    <Name>Масло от водяных</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Корень водяной крапивы</Name>
+        <Quantity>4</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Желчь алконоста</Name>
+        <Quantity>2</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>90</TimeInMinutes>
+    <Efficiency>Максимальная</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id="8">
+  <Name>Катакан</Name>
+  <Type>Высший вампир</Type>
+  <Danger>9</Danger>
+  <Habitat>Заброшенные замки Туссента</Habitat>
+  <FirstMention>1155-11-30</FirstMention>
+  <Invulnerability>Нежить</Invulnerability>
+  <Vulnerability>Дневной свет</Vulnerability>
+  <HeightInMetres>2.1</HeightInMetres>
+  <WeightInKilos>110</WeightInKilos>
+  <Immunities>
+    <Immunity>Старение</Immunity>
+    <Immunity>Болезни</Immunity>
+  </Immunities>
+  <Activity>Ночью</Activity>
+  <Recipe>
+    <Name>Бомба "Лучезарная"</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Порошок лунного камня</Name>
+        <Quantity>5</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Коготь гарпии</Name>
+        <Quantity>3</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>120</TimeInMinutes>
+    <Efficiency>Смертельная</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id="9">
+  <Name>Гарпия</Name>
+  <Type>Крылатый хищник</Type>
+  <Danger>4</Danger>
+  <Habitat>Горные ущелья Махакама</Habitat>
+  <FirstMention>1199-04-18</FirstMention>
+  <Invulnerability>Земные ловушки</Invulnerability>
+  <Vulnerability>Арбалетные болты</Vulnerability>
+  <HeightInMetres>2.5</HeightInMetres>
+  <WeightInKilos>80</WeightInKilos>
+  <Immunities>
+    <Immunity>Падение</Immunity>
+  </Immunities>
+  <Activity>Днём</Activity>
+  <Recipe>
+    <Name>Масло против крылатых</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Перо гарпии</Name>
+        <Quantity>10</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Смола древолюда</Name>
+        <Quantity>2</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>30</TimeInMinutes>
+    <Efficiency>Средняя</Efficiency>
+  </Recipe>
+</Monster>
+
+<Monster id="10">
+  <Name>Матерь улья</Name>
+  <Type>Антропоморфное существо, управляющее осами</Type>
+  <Danger>10</Danger>
+  <Habitat>Повсеместно, но только в Ламмас</Habitat>
+  <FirstMention>1187-02-27</FirstMention>
+  <Vulnerability>Серебро</Vulnerability>
+  <HeightInMetres>3</HeightInMetres>
+  <WeightInKilos>450</WeightInKilos>
+  <Immunities>
+    <Immunity>Знак Аард</Immunity>
+  </Immunities>
+  <Activity>Днём</Activity>
+  <Recipe>
+    <Name>Масло</Name>
+    <Ingredients>
+      <Ingredient>
+        <Name>Собачье сало</Name>
+        <Quantity>1</Quantity>
+      </Ingredient>
+      <Ingredient>
+        <Name>Волкобой</Name>
+        <Quantity>4</Quantity>
+      </Ingredient>
+    </Ingredients>
+    <TimeInMinutes>5</TimeInMinutes>
+    <Efficiency>Низкая</Efficiency>
+  </Recipe>
+</Monster>
+
+</Monsters>
+  

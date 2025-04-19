@@ -1,0 +1,243 @@
+Monsters:
+  Monster:
+    - Name: Леший
+      Type: Гибрид человека и лесного духа, охраняющий древние рощи
+      Danger: 7
+      Habitat: Чащи Брокилона и Эдингеля
+      FirstMention: 1234-06-21
+      Invulnerability: Магия
+      HeightInMetres: 3
+      WeightInKilos: 300
+      Immunities:
+        Immunity:
+          - Оглушение
+          - Яды
+      Activity: Ночью
+      Recipe:
+        Name: Яд
+        Ingredients:
+          Ingredient:
+            - Name: Корень мандрагоры
+              Quantity: 3
+            - Name: Пепел драконида
+              Quantity: 1
+            - Name: Эссенция полыни
+              Quantity: 1
+        TimeInMinutes: 60
+        Efficiency: Умеренная
+      id: 1
+    - Name: Полуденница
+      Type: Призрак, терроризирующий поля во время жатвы
+      Danger: 5
+      Habitat: Поля Редании и амбары Туссента
+      FirstMention: 1198-07-15
+      Vulnerability: Световая магия
+      WeightInKilos: 0
+      Immunities:
+        Immunity: Кровотечение
+      Activity: Днем
+      Recipe:
+        Name: Масло
+        Ingredients:
+          Ingredient:
+            - Name: Лепестки лунного цветка
+              Quantity: 2
+            - Name: Серебряная нить
+              Quantity: 1
+            - Name: Экстракт чеснока
+              Quantity: 1
+        TimeInMinutes: 30
+        Efficiency: Высокая
+      id: 2
+    - Name: Катакан
+      Type: Крылатый демон с хвостом скорпиона
+      Danger: 9
+      Habitat: Горные пещеры Туссента
+      FirstMention: 1150-04-12
+      HeightInMetres: 2
+      WeightInKilos: 200
+      Immunities:
+        Immunity:
+          - Огонь
+          - Ягоды
+      Activity: В сумерках
+      Recipe:
+        Name: Масло
+        Ingredients:
+          Ingredient:
+            - Name: Жало мантикоры
+              Quantity: 4
+            - Name: Нефритовая пыль
+              Quantity: 2
+            - Name: Спирт Альберихта
+              Quantity: 1
+        TimeInMinutes: 90
+        Efficiency: Критическая
+      id: 3
+    - Name: Кикимора
+      Type: Болотная нежить из гниющих останков
+      Danger: 6
+      Habitat: Топи Вендена
+      FirstMention: 1221-09-03
+      Vulnerability: Земляная магия
+      HeightInMetres: 1
+      WeightInKilos: 15
+      Immunities:
+        Immunity: Удушье
+      Activity: Ночью
+      Recipe:
+        Ingredients:
+          Ingredient:
+            - Name: Грибы-поганки
+              Quantity: 5
+            - Name: Глаз василиска
+              Quantity: 1
+            - Name: Роса папоротника
+              Quantity: 3
+        TimeInMinutes: 45
+        Efficiency: Средняя
+      id: 4
+    - Name: Элементаль льда
+      Type: Дух вечной зимы
+      Danger: 10
+      Habitat: Ледники Ковира
+      FirstMention: 1105-12-01
+      HeightInMetres: 5
+      WeightInKilos: 0
+      Immunities:
+        Immunity:
+          - Заморозка
+          - Дробление
+      Activity: Всегда
+      Recipe:
+        Name: Яд
+        Ingredients:
+          Ingredient:
+            - Name: Сердце огненного элементаля
+              Quantity: 1
+            - Name: Сера
+              Quantity: 3
+            - Name: Расплавленное железо
+              Quantity: 1
+        TimeInMinutes: 120
+        Efficiency: Переменная
+      id: 5
+    - Name: Допплер
+      Type: Изменчивый гуманоид
+      Danger: 5
+      Habitat: Города Северных королевств
+      FirstMention: '1267-03-12'
+      Vulnerability: Масло против реликтов
+      HeightInMetres: 1.8
+      WeightInKilos: 75
+      Immunities:
+        Immunity:
+          - Проклятия
+          - Психическое воздействие
+      Activity: Круглосуточно
+      Recipe:
+        Name: Масло против допплеров
+        Ingredients:
+          Ingredient:
+            - Name: Серебряная пыль
+              Quantity: 2
+            - Name: Кровь вампира
+              Quantity: 1
+        TimeInMinutes: 45
+        Efficiency: Высокая
+      id: 6
+    - Name: Брукса
+      Type: Водный паразит
+      Danger: 6
+      Habitat: Болота Вендена
+      FirstMention: '1220-08-05'
+      Invulnerability: Яды
+      Vulnerability: Огненная магия
+      HeightInMetres: 4
+      WeightInKilos: 500
+      Immunities:
+        Immunity:
+          - Утопление
+          - Электричество
+      Activity: Сумерки
+      Recipe:
+        Name: Масло от водяных
+        Ingredients:
+          Ingredient:
+            - Name: Корень водяной крапивы
+              Quantity: 4
+            - Name: Желчь алконоста
+              Quantity: 2
+        TimeInMinutes: 90
+        Efficiency: Максимальная
+      id: 7
+    - Name: Катакан
+      Type: Высший вампир
+      Danger: 9
+      Habitat: Заброшенные замки Туссента
+      FirstMention: '1155-11-30'
+      Invulnerability: Нежить
+      Vulnerability: Дневной свет
+      HeightInMetres: 2.1
+      WeightInKilos: 110
+      Immunities:
+        Immunity:
+          - Старение
+          - Болезни
+      Activity: Ночью
+      Recipe:
+        Name: Бомба "Лучезарная"
+        Ingredients:
+          Ingredient:
+            - Name: Порошок лунного камня
+              Quantity: 5
+            - Name: Коготь гарпии
+              Quantity: 3
+        TimeInMinutes: 120
+        Efficiency: Смертельная
+      id: 8
+    - Name: Гарпия
+      Type: Крылатый хищник
+      Danger: 4
+      Habitat: Горные ущелья Махакама
+      FirstMention: '1199-04-18'
+      Invulnerability: Земные ловушки
+      Vulnerability: Арбалетные болты
+      HeightInMetres: 2.5
+      WeightInKilos: 80
+      Immunities:
+        Immunity: Падение
+      Activity: Днём
+      Recipe:
+        Name: Масло против крылатых
+        Ingredients:
+          Ingredient:
+            - Name: Перо гарпии
+              Quantity: 10
+            - Name: Смола древолюда
+              Quantity: 2
+        TimeInMinutes: 30
+        Efficiency: Средняя
+      id: 9
+    - Name: Матерь улья
+      Type: Антропоморфное существо, управляющее осами
+      Danger: 10
+      Habitat: Повсеместно, но только в Ламмас
+      FirstMention: '1187-02-27'
+      Vulnerability: Серебро
+      HeightInMetres: 3
+      WeightInKilos: 450
+      Immunities:
+        Immunity: Знак Аард
+      Activity: Днём
+      Recipe:
+        Name: Масло
+        Ingredients:
+          Ingredient:
+            - Name: Собачье сало
+              Quantity: 1
+            - Name: Волкобой
+              Quantity: 4
+        TimeInMinutes: 5
+        Efficiency: Низкая
+      id: 10
