@@ -18,14 +18,15 @@ public abstract class FileHandler implements Handler{
     public void setNextHandler(FileHandler nextHandler) {
         this.nextHandler = nextHandler;
     }
-//    @Override
-//    public abstract boolean canHandle(String filename);
-//    
-//    @Override
-//    public abstract List<Monster> importFromFile(File file);
-//    
-//    @Override
-//    public abstract void exportToFile(List<Monster> monsters, File file);
+    
+    @Override
+    public abstract boolean canHandle(String filename);
+    
+    @Override
+    public abstract List<Monster> importFromFile(File file);
+    
+    @Override
+    public abstract void exportToFile(List<Monster> monsters, File file);
     
     @Override
     public List<Monster> processImport(File file) {

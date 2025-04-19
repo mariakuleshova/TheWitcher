@@ -20,7 +20,6 @@ public class MonsterManager {
     
     public MonsterManager() {
         monsterCollections = new HashMap<>();
-        
         //Chain of responsibility for file handlers
         fileHandlerChain = new JsonFileHandler();
         FileHandler xmlHandler = new XmlFileHandler();
@@ -31,9 +30,9 @@ public class MonsterManager {
     }
             
     public void importFromFile(File file) {
-    List<Monster> monsters = fileHandlerChain.processImport(file);
-    monsters.forEach(m -> m.setSource(file.getName())); // Установка источника
-    monsterCollections.put(file.getName(), monsters);
+        List<Monster> monsters = fileHandlerChain.processImport(file);
+        monsters.forEach(m -> m.setSource(file.getName())); // Установка источника
+        monsterCollections.put(file.getName(), monsters);
     }
     
     public List<Monster> getMonsters(String source) {
@@ -45,14 +44,14 @@ public class MonsterManager {
     }
         
     public Monster getMonsterByName(String source, String name) {
-    List<Monster> monsters = getMonsters(source);
-    if (monsters == null) return null;
-    for (Monster monster : monsters) {
-        if (monster.getName() != null && monster.getName().equals(name)) {
-            return monster;
+        List<Monster> monsters = getMonsters(source);
+        if (monsters == null) return null;
+        for (Monster monster : monsters) {
+            if (monster.getName() != null && monster.getName().equals(name)) {
+                return monster;
+            }
         }
-    }
-    return null;
+        return null;
     }
     
     public void updateMonster(String source, Monster updatedMonster) {
@@ -67,8 +66,8 @@ public class MonsterManager {
     }
         
     public void exportToFile(File file) {
-    List<Monster> allMonsters = new ArrayList<>();
-    monsterCollections.values().forEach(allMonsters::addAll);
-    fileHandlerChain.processExport(allMonsters, file);
+        List<Monster> allMonsters = new ArrayList<>();
+        monsterCollections.values().forEach(allMonsters::addAll);
+        fileHandlerChain.processExport(allMonsters, file);
     }
 } 

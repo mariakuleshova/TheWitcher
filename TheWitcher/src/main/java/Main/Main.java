@@ -23,7 +23,6 @@ public class Main {
             e.printStackTrace();
         }
         
-        // MVC components
         MonsterManager model = new MonsterManager();
         MonsterController controller = new MonsterController(model);
         

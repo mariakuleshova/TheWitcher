@@ -32,14 +32,14 @@ public class YamlFileHandler extends FileHandler {
 
     @Override
     public List<Monster> importFromFile(File file) {
-    try {
-        JsonNode root = mapper.readTree(file);
-        JsonNode monstersNode = root.path("Monsters").path("Monster");
-        return mapper.convertValue(monstersNode, new TypeReference<List<Monster>>() {});
-    } catch (IOException e) {
-         throw new RuntimeException("YAML import error: " + e.getMessage());
+        try {
+            JsonNode root = mapper.readTree(file);
+            JsonNode monstersNode = root.path("Monsters").path("Monster");
+            return mapper.convertValue(monstersNode, new TypeReference<List<Monster>>() {});
+        } catch (IOException e) {
+             throw new RuntimeException("YAML import error: " + e.getMessage());
+        }
     }
-}
 
     @Override
     public void exportToFile(List<Monster> monsters, File file) {
